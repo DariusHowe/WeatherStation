@@ -1,5 +1,5 @@
 // stdafx.cpp : source file that includes just the standard includes
-// Project 10 Universe.pch will be the pre-compiled header
+// Project 3.pch will be the pre-compiled header
 // stdafx.obj will contain the pre-compiled type information
 
 #include "stdafx.h"
