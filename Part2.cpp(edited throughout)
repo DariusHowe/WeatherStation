@@ -6,8 +6,9 @@
 #include <string>
 
 using namespace std;
+//Wrap constructors in a class and then call class and constructors to be more efficient
 
-
+//Initial setup to create a station and give it a name
 int myStation()
 {
 	string station;
@@ -16,6 +17,7 @@ int myStation()
 	cout << "Welcome to the " << station << " Weather Station on BlackBoi News!" << endl;
 	return  -1;
 }
+//Initial set up to take in temperature 
 int tempOutside()
 {
 	int temp;
@@ -24,7 +26,7 @@ int tempOutside()
 	cout << "The current Temperature outside is " << temp << "Degrees Fharheit." << endl;
 	return 0;
 }
-
+//Initial set up to take in a wind speed
 int windSpeed()
 {
 	int wspeed;
@@ -33,7 +35,7 @@ int windSpeed()
 	cout << "The wind speed is " << wspeed << "!" << endl;
 	return 0;
 }
-
+//Initial set up to trake into consideration wind direction
 int windDirect()
 {
 	string wDirect;
@@ -46,10 +48,9 @@ int windDirect()
 
 int main()
 {
-
-	int a = 1;
-	int b = 2;
-	int c = a + b;
+	//Does everything that is done in above set up constructors
+	//Can also be done with calling constructors
+	
 
 	string station;
 	cout << "What do you want to Name your brand new Weather Station?" << endl;
